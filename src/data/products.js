@@ -6,7 +6,7 @@ export const products = [
   subtitle: "2 Peças",
   desc: "100% Viscose · Calça pantalona",
   price: "R$ 179,90",
-  image: "images/conjuntovalentina.jpg",
+  image: "public/images/conjuntovalentina.jpg",
   tag: "Mais vendido",
   },
   {
@@ -15,7 +15,7 @@ export const products = [
     subtitle: "3 peças",
     desc: "Elástico na cintura · Tecido leve e fresco",
     price: "R$ 199,90",
-    image: "images/conjuntodelhiad.jpg",
+    image: "public/images/conjuntodelhiad.jpg",
     tag: "Cardigan + Regata + Pantalona",
   },
   {
@@ -24,7 +24,7 @@ export const products = [
     subtitle: "Caimento Leve",
     desc: "Viscose · Evasê fluida",
     price: "R$ 89,90",
-    image: "images/saiasara.jpg",
+    image: "public/images/saiasara.jpg",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ export const products = [
     subtitle: "Muitas possibilidades de uso",
     desc: "Viscose · Alças de nó",
     price: "R$ 119,90",
-    image: "images/macacaoana.jpg",
+    image: "public/images/macacaoana.jpg",
     tag: "Favorito das clientes",
   },
   {
@@ -41,7 +41,7 @@ export const products = [
     subtitle: "Básica, mas cheia de charme",
     desc: "Viscose · Fendas laterais",
     price: "R$ 99,90",
-    image: "images/chemisemartha.jpg",
+    image: "public/images/chemisemartha.jpg",
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ export const products = [
     subtitle: "Despojada e elegante",
     desc: "Botões frontais · Manga 3/4",
     price: "R$ 89,90",
-    image: "images/chemisemidi.jpg",
+    image: "public/images/chemisemidi.jpg",
   },
 
    {
@@ -58,7 +58,7 @@ export const products = [
     subtitle: "Mensagem de fé que inspira",
     desc: "Camiseta estampada · Modelagem clássica",
     price: "R$ 49,90",
-    image: "images/camisetadeusebom.jpg",
+    image: "public/images/camisetadeusebomm.jpg",
   },
   {
     id: 8,
@@ -66,7 +66,7 @@ export const products = [
     subtitle: "Fé com estilo",
     desc: "Camiseta estampada · Modelagem clássica",
     price: "R$ 49,90",
-    image: "images/camisetasojesus.jpg",
+    image: "public/images/camisetasojesus.jpg",
     tag: "TOP VENDAS",
   },
    {
@@ -75,7 +75,7 @@ export const products = [
     subtitle: "Indispensável no guarda-roupa",
     desc: "Algodão · Atemporal",
     price: "R$ 49,90",
-    image: "images/camisetalisa.jpg",
+    image: "public/images/camisetalisa.jpg",
   },
   {
     id: 10,
@@ -83,7 +83,7 @@ export const products = [
     subtitle: "Básica, mas cheia de charme",
     desc: "Camiseta estampada · Modelagem clássica",
     price: "R$ 49,90",
-    image: "images/camisetaparadeus.jpg",
+    image: "public/images/camisetaparadeus.jpg",
   },
    {
     id: 11,
@@ -91,7 +91,7 @@ export const products = [
     subtitle: "Um look completo, zero esforço",
     desc: "Conjunto de 2 peças · Tecido leve e confortável",
     price: "R$ 199,90",
-    image: "images/conjuntokatia.jpg",
+    image: "public/images/conjuntokatia.jpg",
   },
     {
     id: 12,
@@ -99,7 +99,7 @@ export const products = [
     subtitle: "Fluida e elegante",
     desc: "Viscose · Cós com elástico",
     price: "R$ 79,90",
-    image: "images/calcapantalona.jpg",
+    image: "public/images/calcapantalona.jpg",
   },
     {
     id: 13,
@@ -107,7 +107,7 @@ export const products = [
     subtitle: "Do dia a dia ao trabalho",
     desc: "Alta qualidade · Modelagem moderna",
     price: "R$ 89,90",
-    image: "images/calcasisi.jpg",
+    image: "public/images/calcasisi.jpg",
   },
     {
     id: 14,
@@ -115,14 +115,14 @@ export const products = [
     subtitle: "Perfeita para dias mais frios",
     desc: "Tecido macio e confortável",
     price: "R$ 59,90",
-    image: "images/cacharrel.jpg",
+    image: "public/images/cacharrel.jpg",
   },
   {
-    id: 14,
+    id: 15,
     name: "Regata Lara",
     subtitle: "Peça curinga para o verão",
     desc: "Modelagem elegante · Qualidade premium",
     price: "R$ 45,90",
-    image: "images/regatalara.jpg",
+    image: "public/images/regatalara.jpg",
   },
 ];
