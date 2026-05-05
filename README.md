@@ -1,14 +1,16 @@
 <div align="center">
   <br />
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-f5c842?style=flat-square" />
-  <img src="https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Online-2ea44f?style=flat-square" />
+  <img src="https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?style=flat-square&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-c9a96e?style=flat-square" />
   <br /><br />
 
   <h1>Ateliê Ester</h1>
   <p><em>Moda Feminina com Propósito</em></p>
 
-  <p>Site institucional desenvolvido como estudo de identidade visual e desenvolvimento front-end para a marca Ateliê Ester — onde elegância encontra propósito.</p>
+  <p>
+    Site institucional desenvolvido como estudo de identidade visual e desenvolvimento front-end para a marca Ateliê Ester — onde elegância encontra propósito.
+  </p>
 
   <br />
 
@@ -19,19 +21,29 @@
 
   <br /><br />
 
-  [Sobre](#sobre) · [Funcionalidades](#funcionalidades) · [Tecnologias](#tecnologias) · [Como executar](#como-executar) · [Screenshots](#screenshots) · [Autora](#autora)
+  <a href="https://lohannab.github.io/atelieester-web/" target="_blank">
+    🔗 Acessar projeto
+  </a>
+
+  <br /><br />
+
+  [Sobre](#sobre) · [Funcionalidades](#funcionalidades) · [Tecnologias](#tecnologias) · [Como executar](#como-executar) · [Deploy](#deploy) · [Autora](#autora)
 
   <br />
-
 </div>
 
 ---
 
 ## Sobre
 
-O **Ateliê Ester** é uma marca de moda feminina que une elegância, propósito e identidade. Este projeto nasceu da intenção de traduzir essa essência para o digital — criando uma experiência visual sofisticada, leve e emocional.
+O **Ateliê Ester** é um projeto de estudo focado na criação de uma experiência digital para uma marca de moda feminina.
 
-A proposta vai além de exibir produtos. O objetivo é **comunicar valor, identidade e narrativa de marca** por meio de um design cuidadoso e uma navegação fluida.
+Mais do que apresentar produtos, o objetivo foi desenvolver uma interface que comunique:
+- identidade
+- propósito
+- sofisticação visual
+
+O projeto explora conceitos de **UI/UX, branding e componentização com React**.
 
 > *"Moda não é apenas o que você veste. É o que você escolhe comunicar ao mundo."*
 
@@ -39,91 +51,62 @@ A proposta vai além de exibir produtos. O objetivo é **comunicar valor, identi
 
 ## Funcionalidades
 
-- Página inicial com apresentação da identidade da marca
+- Página inicial com apresentação da marca
 - Seção de coleção com cards de produtos
-- Layout responsivo para desktop, tablet e mobile
-- Navegação fluida com foco em experiência do usuário
-- Identidade visual coesa e minimalista
+- Layout responsivo (desktop, tablet e mobile)
+- Navegação fluida
+- Estrutura baseada em componentes reutilizáveis
 
 ---
 
 ## Tecnologias
 
-| Tecnologia | Versão | Finalidade |
-|---|---|---|
-| React | 18+ | Biblioteca de interface |
-| JavaScript | ES6+ | Lógica e interatividade |
-| CSS3 | — | Estilização (Flexbox / Grid) |
-| Vite | 5+ | Bundler e ambiente de desenvolvimento |
-
-### Decisões de design
-
-- Paleta de cores neutras e elegantes, alinhada à identidade da marca
-- Tipografia com foco em legibilidade e sofisticação
-- Espaçamento generoso para respiração visual
-- Componentização para escalabilidade e manutenção
+| Tecnologia | Finalidade |
+|---|---|
+| React | Construção da interface |
+| JavaScript (ES6+) | Lógica da aplicação |
+| CSS3 | Estilização (Flexbox e Grid) |
+| Vite | Build tool e ambiente de desenvolvimento |
 
 ---
 
 ## Como executar
 
-### Pré-requisitos
-
-- [Node.js](https://nodejs.org/) v18 ou superior
-- npm ou yarn
-
-### Instalação
-
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/atelie-ester.git
+git clone https://github.com/lohannab/atelieester-web.git
 
-# Acesse a pasta do projeto
-cd atelie-ester
+# Acesse a pasta
+cd atelieester-web
 
 # Instale as dependências
 npm install
 
-# Inicie o servidor de desenvolvimento
+# Rode o projeto
 npm run dev
 ```
 
-O projeto estará disponível em `http://localhost:5173`.
-
-### Scripts disponíveis
-
-```bash
-npm run dev      # Inicia em modo desenvolvimento
-npm run build    # Gera build de produção
-npm run preview  # Visualiza o build localmente
+Acesse em:
 ```
-
----
-
-## Screenshots
-
-> *(Em breve — projeto em desenvolvimento)*
-
-| Página Inicial | Coleção | Mobile |
-|---|---|---|
-| — | — | — |
+http://localhost:5173
+```
 
 ---
 
 ## Deploy
 
-O projeto será publicado via **Vercel**.
+O projeto está hospedado utilizando **GitHub Pages**.
 
-🔗 Link de produção: *em breve*
+🔗 Produção:  
+https://lohannab.github.io/atelieester-web/
 
 ---
 
 ## Estrutura do projeto
 
 ```
-atelie-ester/
+atelieester-web/
 ├── public/
-│   └── assets/
 ├── src/
 │   ├── components/
 │   ├── pages/
@@ -139,25 +122,15 @@ atelie-ester/
 
 ## Autora
 
-<table>
-  <tr>
-    <td align="center">
-      <b>Lohanna B.</b><br />
-      <sub>Desenvolvedora Front-end</sub><br />
-      <a href="https://github.com/seu-usuario">GitHub</a> ·
-      <a href="https://linkedin.com/in/seu-perfil">LinkedIn</a>
-    </td>
-  </tr>
-</table>
+**Lohanna B.**  
+Desenvolvedora Front-end
+
+- GitHub: https://github.com/lohannab  
+- LinkedIn: (coloca seu link aqui depois)
 
 ---
 
 ## Nota
 
-Este projeto foi criado com base em uma marca real como estudo de **identidade visual e desenvolvimento front-end**. Não possui fins comerciais diretos neste momento.
-
----
-
-<div align="center">
-  <sub>Desenvolvido com cuidado por <strong>Lohanna B.</strong></sub>
-</div>
+Projeto desenvolvido como estudo de front-end e identidade visual.  
+Sem fins comerciais no momento.
