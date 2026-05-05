@@ -1,0 +1,21 @@
+:root {
+  /* CORES */
+  --maroon: #7F2E45;
+  --pink: #D3A1AB;
+  --mocha: #9D7967;
+  --dark: #1C1008;
+  --peach: #FAF5EE;
+  --neutral: #C4BAB3;
+  --white: #FFFFFF;
+
+  /* TIPOGRAFIA */
+  --font-title: 'Cormorant Garamond', serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* LAYOUT */
+  --container: 1200px;
+
+  /* BORDAS */
+  --radius-pill: 50px;
+  --radius-card: 20px;
+}

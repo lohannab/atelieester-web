@@ -1,0 +1,144 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 120px 24px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ORNAMENTOS (círculos de fundo) */
+.hero__orb {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(196,149,106,0.15);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  animation: float 8s ease-in-out infinite;
+}
+
+.hero__orb--lg {
+  width: 600px;
+  height: 600px;
+}
+
+.hero__orb--sm {
+  width: 400px;
+  height: 400px;
+  animation-delay: 1s;
+}
+
+/* TEXTO */
+.hero__eyebrow {
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--maroon);
+  font-weight: 500;
+
+  animation: fadeUp 1s ease 0.1s both;
+}
+
+.hero__title {
+  font-family: var(--font-title);
+  font-size: clamp(64px, 10vw, 120px);
+  font-weight: 500;
+  line-height: 0.92;
+  margin-top: 20px;
+  letter-spacing: -1px;
+
+  animation: fadeUp 1s ease 0.3s both;
+}
+
+.hero__title em {
+  font-style: italic;
+  color: var(--maroon);
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--mocha);
+  max-width: 400px;
+  line-height: 1.7;
+  margin-top: 28px;
+
+  animation: fadeUp 1s ease 0.5s both;
+}
+
+/* BOTÕES */
+.hero__actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  animation: fadeUp 1s ease 0.7s both;
+}
+
+.hero__btn {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 16px 40px;
+  border-radius: var(--radius-pill);
+  font-weight: 500;
+  transition: all 0.25s;
+}
+
+.hero__btn--primary {
+  background: var(--dark);
+  color: var(--peach);
+}
+
+.hero__btn--primary:hover {
+  background: var(--maroon);
+}
+
+.hero__btn--outline {
+  border: 1px solid rgba(28,16,8,0.2);
+}
+
+.hero__btn--outline:hover {
+  border-color: var(--maroon);
+  color: var(--maroon);
+}
+
+/* SCROLL INDICATOR */
+.hero__scroll {
+  position: absolute;
+  bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  opacity: 0.4;
+  animation: fadeUp 1s ease 1.2s both;
+}
+
+.hero__scroll span {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--mocha);
+}
+
+.hero__line {
+  width: 1px;
+  height: 40px;
+  background: var(--maroon);
+  transform-origin: top;
+  animation: lineDraw 1.5s ease 1.5s both;
+}
+
+.hero__title {
+  transform: translateY(var(--scroll, 0));
+}

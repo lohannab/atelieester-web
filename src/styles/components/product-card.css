@@ -1,0 +1,226 @@
+
+/* =========================
+   CARD BASE
+========================= */
+.card {
+  background: var(--white);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+
+  border: 1px solid rgba(0,0,0,0.05);
+
+  display: flex;
+  flex-direction: column;
+
+  transition: all 0.35s ease;
+}
+
+/* HOVER PREMIUM */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(28,16,8,0.12);
+  border-color: rgba(127,46,69,0.2);
+}
+
+/* =========================
+   IMAGE AREA
+========================= */
+.card__image {
+  height: 420px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+/* IMAGEM DO PRODUTO */
+.card__photo {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  z-index: 1;
+  opacity: 0.9;
+}
+
+/* overlay suave pra leitura */
+.card__image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.10),
+    rgba(0, 0, 0, 0.25)
+  );
+
+  z-index: 2;
+}
+
+/* círculos decorativos */
+.card__circle-lg,
+.card__circle-sm {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.card__circle-lg {
+  width: 140px;
+  height: 140px;
+  opacity: 0.15;
+  z-index: 3;
+}
+
+.card__circle-sm {
+  width: 90px;
+  height: 90px;
+  border: 2px solid;
+  opacity: 0.35;
+  z-index: 3;
+}
+
+/* marca */
+.card__brand {
+  position: absolute;
+  font-family: var(--font-title);
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 0.6;
+
+  z-index: 3;
+}
+
+/* tag */
+.card__tag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  padding: 5px 12px;
+  border-radius: 20px;
+
+  color: var(--white);
+
+  z-index: 3;
+}
+
+/* =========================
+   BODY
+========================= */
+.card__body {
+  padding: 20px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* TÍTULO */
+.card__name {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: #2C1B16;
+}
+
+/* SUBTÍTULO */
+.card__subtitle {
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #B57170;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* DESCRIÇÃO */
+.card__desc {
+  font-size: 13px;
+  color: #6B5A50;
+  line-height: 1.6;
+  flex: 1;
+  margin-bottom: 18px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/* botão */
+.card__btn {
+  background: var(--dark);
+  color: var(--white);
+
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+
+  padding: 10px 18px;
+  border-radius: var(--radius-pill);
+
+  text-transform: uppercase;
+
+  transition: all 0.25s ease;
+}
+
+.card__btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+/* =========================
+   TÍTULO
+========================= */
+.card__name {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #2C1B16;
+}
+
+/* SUBTÍTULO (2 peças / categoria) */
+.card__subtitle {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #B57170;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* DESCRIÇÃO (material / info) */
+.card__desc {
+  font-size: 13px;
+  color: #6B5A50;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* PREÇO */
+.card__price {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 600;
+  color: #2C1B16;
+}

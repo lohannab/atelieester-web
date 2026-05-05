@@ -1,0 +1,71 @@
+/* =========================
+   NAVBAR BASE
+========================= */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 48px;
+  transition: all 0.4s ease;
+}
+
+/* ESTADO AO ROLAR */
+.navbar--scrolled {
+  background: rgba(250, 245, 238, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(196,149,106,0.2);
+}
+
+/* LOGO */
+.navbar__logo {
+  font-family: var(--font-title);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* LINKS */
+.navbar__links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.navbar__link {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--mocha);
+  transition: color 0.2s;
+}
+
+.navbar__link:hover {
+  color: var(--maroon);
+}
+
+/* BOTÃO */
+.navbar__btn {
+  background: var(--dark);
+  color: var(--peach);
+
+  padding: 10px 22px;
+  border-radius: var(--radius-pill);
+
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  transition: background 0.25s;
+}
+
+.navbar__btn:hover {
+  background: var(--maroon);
+}

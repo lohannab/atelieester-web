@@ -1,0 +1,50 @@
+/* =========================
+   💬 SEÇÃO EMOCIONAL
+========================= */
+.emotional {
+  padding: 120px 24px;
+  text-align: center;
+  background: var(--peach);
+}
+
+/* FRASE */
+.emotional__quote {
+  font-family: var(--font-title);
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--dark);
+
+  max-width: 720px;
+  margin: 0 auto;
+
+  line-height: 1.4;
+}
+
+/* PILLS */
+.emotional__pills {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+/* ITEM */
+.emotional__pill {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--maroon);
+  font-weight: 500;
+
+  padding: 0 20px;
+}
+
+/* DIVISOR */
+.emotional__pill--bordered {
+  border-right: 1px solid var(--neutral);
+}
+
+.emotional .fade {
+  transition-duration: 1s;
+}
