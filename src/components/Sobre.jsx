@@ -37,7 +37,7 @@ export default function Sobre() {
           {/* IMAGEM */}
           <div className="about__image">
             <img
-              src="/images/atelier.png"
+              src="./images/atelier.png"
               alt="Ateliê Ester"
             />
           </div>
